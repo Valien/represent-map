@@ -17,7 +17,7 @@ $places = mysql_query("SELECT * FROM places WHERE approved='1'");
     Create a map for your startup community!
     https://github.com/abenzer/represent-map
     -->
-    <title>represent.la - map of the Los Angeles startup community</title>
+    <title>represent.sc - map of the South Carolina startup community</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -339,13 +339,13 @@ $places = mysql_query("SELECT * FROM places WHERE approved='1'");
           <a href="#modal_info" class="btn btn-large" data-toggle="modal">More Info</a>
         </div>
         <div class="blurb">
-          This map was made to connect and promote the Los Angeles tech startup community.
-          Let's put LA on the map!
+          This map was made to connect and promote the South Carolina tech startup community.
+          Let's put SC on the map!
         </div>
         <div class="share">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.represent.la" data-text="Let's put Los Angeles startups on the map:" data-via="representla" data-count="none">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://representsc.epdigitalsystems.com" data-text="Let's put South Carolina startups on the map:" data-via="representsc" data-count="none">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          <div class="fb-like" data-href="http://www.represent.la" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
+          <div class="fb-like" data-href="http://representsc.epdigitalsystems.com" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
         </div>
         <div class="blurb">
           <!-- per our license, you may not remove this line -->
@@ -363,8 +363,8 @@ $places = mysql_query("SELECT * FROM places WHERE approved='1'");
           <a href="#modal_info" class="btn btn-large" data-toggle="modal">Info</a>
         </div>
         <div class="logo">
-          <a href="http://represent.la/">
-            <img src="images/logo.png" alt="RepresentLA" />
+          <a href="http://representsc.epdigitalsystems.com/">
+            <img src="images/logo.png" alt="RepresentSC" />
           </a>
         </div>
       </div>
@@ -391,13 +391,13 @@ $places = mysql_query("SELECT * FROM places WHERE approved='1'");
       <div class="modal-body">
         <p>
           We built this map to connect and promote the tech startup community
-          in our beloved Los Angeles. We've seeded the map but we need
+          in our beloved South Carolina. We've seeded the map but we need
           your help to keep it fresh. If you don't see your company,
           please <a href="#modal_add" data-toggle="modal" data-dismiss="modal">submit it here</a>.
-          Let's put LA on the map together!
+          Let's put SC on the map together!
         </p>
         <p>
-          Questions? Feedback? Connect with us: <a href="http://www.twitter.com/representla" target="_blank">@representla</a>
+          Questions? Feedback? Connect with us: <a href="http://www.twitter.com/representsc" target="_blank">@representsc</a>
         </p>
         <p>
           If you want to support the community by linking to this map from your website,
