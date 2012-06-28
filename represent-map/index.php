@@ -82,7 +82,7 @@ $places = mysql_query("SELECT * FROM places WHERE approved='1'");
         var myOptions = {
           zoom: 12,
           minZoom: 10,
-          center: new google.maps.LatLng(34.034453,-118.341293),
+          center: new google.maps.LatLng(34.847129,-82.398005), //setting to Greenville initially
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           panControl: false,
           streetViewControl: false,
