@@ -5,9 +5,11 @@ include "header.php";
 // It will look for any markers that are missing latlong values
 // and automatically geocode them.
 
-// google maps vars
+// Google documentation on php code - https://developers.google.com/maps/articles/phpsqlgeocode
+
+// google maps vars -- don't forget to change this key to your Google Maps API key. More info here - http://code.google.com/apis
 define("MAPS_HOST", "maps.google.com");
-define("KEY", "abcdefg");
+define("KEY", "AIzaSyCUx2A3-KpWRcpb31vykZ5CgK6zdq484Ns");
 
 // get places that don't have latlong values
 $result = mysql_query("SELECT * FROM places WHERE lat=0 OR lng=0") or die(mysql_error());
