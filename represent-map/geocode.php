@@ -9,7 +9,7 @@ include "header.php";
 
 // google maps vars -- don't forget to change this key to your Google Maps API key. More info here - http://code.google.com/apis
 define("MAPS_HOST", "maps.google.com");
-define("KEY", "AIzaSyCUx2A3-KpWRcpb31vykZ5CgK6zdq484Ns");
+define("KEY", "abcdef");
 
 // get places that don't have latlong values
 $result = mysql_query("SELECT * FROM places WHERE lat=0 OR lng=0") or die(mysql_error());
